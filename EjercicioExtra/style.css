@@ -1,0 +1,38 @@
+div{
+    width: 120px;
+    height: 120px;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+div:nth-of-type(1) {
+    border-color: blue;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+div:nth-of-type(2) {
+    border-color: darkorange;
+    top: 70px;
+    left: 80px;
+    z-index: 2;
+}
+div:nth-of-type(3) {
+    border-color: black;
+    top: 0px;
+    left: 160px;
+    z-index: 1;
+}
+div:nth-of-type(4) {
+    border-color: darkgreen;
+    top: 70px;
+    left: 240px;
+    z-index: 2;
+}
+div:nth-of-type(5) {
+    border-color: red;
+    top: 0px;
+    left: 320px;
+    z-index: 1;
+}

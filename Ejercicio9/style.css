@@ -1,0 +1,28 @@
+header, footer {
+    background-color: skyblue;
+    color: white;
+    width: 100vw;
+    height: 40px;
+}
+
+div {
+    padding: 5px;
+    float: left;
+}
+
+div.contenedor1 {
+    width: 20%;
+    border-right: 2px solid lightgrey;
+}
+div.contenedor2 {
+    width: 50%;
+    margin: auto 0 auto;
+}
+div.contenedor3 {
+    width: 20%;
+    border-left: 2px solid lightgrey;
+}
+
+footer{
+    clear: both;
+}

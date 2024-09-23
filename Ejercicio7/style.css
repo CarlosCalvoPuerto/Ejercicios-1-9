@@ -1,0 +1,11 @@
+div {
+    background-color: lightgoldenrodyellow;
+    float: left;
+    width: 200px;
+    margin: 5px;
+}
+
+
+div:nth-last-child(1) {
+    clear: left;
+}

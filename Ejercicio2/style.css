@@ -1,0 +1,10 @@
+div {
+    background-color: salmon;
+}
+
+div:nth-of-type(2) {
+    background-color: yellow;
+    position: absolute;
+    top: 40px;
+    left: 30px
+}
