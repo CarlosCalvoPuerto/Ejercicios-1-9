@@ -1,4 +1,6 @@
-header, footer {
+
+
+/* header, footer {
     background-color: skyblue;
     color: white;
     width: 100vw;
@@ -21,4 +23,42 @@ div.contenedor2 {
 
 footer{
     clear: both;
+} */
+
+
+/* Correccion */
+
+div.cuerpo {
+    background-color: lightgray;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #becdfe;
+    color: white;
+}
+
+div.contenedor1 {
+    width: 20%;
+    border-right: 2px solid grey;
+    float: left;
+    padding: 20px 10px;
+}
+
+div.contenedor2 {
+    padding: 20px 10px;
+    margin-left: calc(20% + 22px);
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    clear: left;
+}
+
+h1, h6 {
+    margin: 0;
+    padding: 10px;
 }
