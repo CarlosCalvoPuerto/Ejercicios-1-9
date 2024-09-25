@@ -1,4 +1,4 @@
-header, footer {
+/* header, footer {
     background-color: skyblue;
     color: white;
     width: 100vw;
@@ -25,4 +25,56 @@ div.contenedor3 {
 
 footer{
     clear: both;
+} */
+
+
+/* Correccion */
+
+* {
+    box-sizing: border-box;
+}
+
+div.cuerpo {
+    background-color: lightgray;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #becdfe;
+    color: white;
+}
+
+div.contenedor1, div.contenedor3{
+    padding: 20px 10px;
+}
+
+div.contenedor1 {
+    border-right: 2px solid grey;
+    float: left;
+    width: 20%;
+}
+
+
+div.contenedor3 {
+    border-left: 2px solid grey;
+    margin-left: calc(50% + 20%);
+}
+
+div.contenedor2 {
+    float: left;
+    width: 50%;
+    padding: 20px 10px;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    clear: left;
+}
+
+h1, h6 {
+    margin: 0;
+    padding: 10px;
 }
