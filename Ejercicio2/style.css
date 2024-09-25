@@ -1,5 +1,6 @@
 div {
     background-color: salmon;
+    margin: 5px;
 }
 
 div:nth-of-type(2) {
@@ -7,4 +8,7 @@ div:nth-of-type(2) {
     position: absolute;
     top: 40px;
     left: 30px
+}
+div p {
+    padding: 5px;
 }
